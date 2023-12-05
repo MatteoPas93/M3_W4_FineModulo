@@ -1,0 +1,205 @@
+body {
+    background: #141414;
+}
+
+.navbar {
+    background: #141414;
+    padding: 0;
+    /* height: 0px; */
+    margin-top: 20px;
+}
+
+.container__navbar {
+    background: #141414;
+    margin-left: 10px;
+}
+
+.logo__netflix img {
+    width: 100px;
+    height: 50px;
+}
+
+.nav-item > a {
+    color: rgb(189, 187, 187);
+}
+
+.nav-item > a:hover {
+    color: white;
+}
+
+.setting__nav {
+    background: #141414;
+}
+
+.setting__nav ion-icon {
+    color: white;
+    width: 40px;
+    height: 20px;
+}
+
+.setting__nav a {
+    color: rgb(189, 187, 187);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.setting__nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.setting__nav {
+    gap: 10px;
+    padding-right: 35px;
+}
+
+.button__user {
+    background: #141414;
+    border: none;
+}
+
+
+.navbar-toggler ion-icon {
+    width: 30px;
+    height: 30px;
+    color: gray;
+    margin-right: 15px;
+}
+
+/* !TITLE */
+
+.container__title {
+    margin-top: 20px;
+}
+
+.title__show {
+    color: white;
+    /* margin-top: 5%; */
+    margin-inline: 20px;
+    gap: 40px;
+    /* z-index: 2; */
+}
+
+.button__genres {
+    background: black;
+    border-radius: 0;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu__icon {
+    /* margin-top: 5%; */
+    width: 95px;
+    height: 30px;
+}
+
+.menu, 
+.grid {
+    width: 40px;
+    height: 27px;
+    border: 2px solid gray;
+}
+
+.menu {
+    border-right: 0px;
+}
+
+
+.menu,
+.grid ion-icon {
+  color: rgb(183, 181, 181);
+}
+
+/* !FIRST SECTION */
+
+
+.first__sectionTitle,
+.second__sectionTitle,
+.third__sectionTitle {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.first__sectionTitle,
+.second__sectionTitle,
+.third__sectionTitle h5 {
+    color: white;
+}
+
+.first__cards,
+.second__cards {
+    margin-top: 10px;
+}
+
+.carousel__container {
+    margin-left: 20px;
+}
+
+.img__film {
+    max-width: 235px;
+    min-width: 150px;
+}
+
+/* !FOOTER LOGO */
+
+/* .social__logo {
+    margin-left: 20%;
+    margin-top: 100px;
+    gap: 15px;
+    padding-right: 200px;
+} */
+
+.footer__link {
+    margin-top: 15%;
+    margin-left: 0;
+}
+
+.icon__footer {
+    /* gap: 15px; */
+}
+
+.icon__footer ion-icon {
+    width: 50px;
+    height: 50px;
+    color: rgb(172, 170, 170);
+    margin-bottom: 15px;
+}
+
+.link__endPage p {
+    color: rgb(172, 170, 170);
+    font-size: small;
+}
+
+.link__endPage {
+    max-width: 200px;
+    min-width: 155px;
+    margin-bottom: 20px;
+}
+
+/* .footer__link .link__endPage:nth-of-type(2) {
+    margin-left: -8%;
+} */
+
+.button__footer button {
+    background: none;
+    border:1px solid rgb(172, 170, 170);
+    color: rgb(172, 170, 170);
+    height: 35px;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.copyright p {
+    color: rgb(172, 170, 170);
+    font-size: small;
+}
+
+.flex-column {
+    margin-left: 17%;
+}
+
