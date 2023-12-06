@@ -90,6 +90,7 @@ body {
   /* margin-top: 5%; */
   width: 95px;
   height: 30px;
+  margin-right: 10px;
 }
 
 .menu,
@@ -108,11 +109,12 @@ body {
   color: rgb(183, 181, 181);
 }
 
-/* !FIRST SECTION */
+/* !ALL SECTION */
 
 .first__sectionTitle,
 .second__sectionTitle,
-.third__sectionTitle {
+.third__sectionTitle,
+.fourth__sectionTitle {
   margin-left: 20px;
   margin-top: 30px;
 }
@@ -128,6 +130,15 @@ body {
   margin-top: 10px;
 }
 
+.first__cards,
+.second__cards,
+.third__cards,
+.fourth__cards img{
+  cursor: pointer;
+  object-fit: cover;
+}
+
+
 .carousel__container {
   margin-left: 20px;
 }
@@ -135,6 +146,19 @@ body {
 .img__film {
   max-width: 235px;
   min-width: 150px;
+}
+
+.fourth__cards {
+  margin-top: 10px;
+}
+
+/* !HIDDEN CARDS */
+
+#carousel__fourthCard {
+  position: relative;
+  left: -2000px;
+  transition: linear 0.5s;
+  margin-block: 20px;
 }
 
 /* !FOOTER LOGO */
@@ -151,9 +175,6 @@ body {
   margin-left: 0;
 }
 
-.icon__footer {
-  /* gap: 15px; */
-}
 
 .icon__footer ion-icon {
   width: 30px;
@@ -193,3 +214,78 @@ body {
 .flex-column {
   margin-left: 17%;
 }
+
+
+
+
+/* !PROVA CARD */
+
+ .film__card img{
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   padding: 0;
+   
+}
+
+.film__card {
+  min-width: 150px;
+  max-width: 230px;
+  border: 1px solid gray;
+  padding: 0;
+  height: auto;
+  /* margin-bottom: 10px; */
+}
+
+.film__card h6,p {
+  color: white;
+}
+
+.first__containerCard {
+   width: 100%;
+   margin-left: 3px;
+} 
+
+/* !CARD */
+
+
+ .space {
+  margin-left: 30px;
+}
+
+.text__card {
+  /* padding-top: 10px; */
+  margin-left: 10px;
+}
+
+.text__card button {
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  margin-left: 80%;
+}
+
+.text__card ion-icon {
+  color: rgb(255, 255, 255);
+}
+
+.text__card {
+  /* display: none; */
+  padding-left: 10px;
+
+}
+
+.film__card .text__card {
+  transition: 0.3s linear;
+  height: 0;
+}
+
+.film__card:hover .text__card {
+   /* display: block;  */
+   height: auto;
+   transform: scale(1); 
+ } 
+
