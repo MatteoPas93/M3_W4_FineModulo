@@ -337,6 +337,7 @@ p {
   position: absolute;
   top: 100%;
   width: 100%;
+  border: 1px solid gray;
 }
 
 .film__card .text__card {
@@ -352,12 +353,12 @@ p {
 }
 
 .film__card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .film__card:hover .text__card {
   display: block;
-  transform: scale(1.05);
+  transform: scale(1.01);
   height: 150px;
   z-index: 2;
 }
